@@ -43,6 +43,10 @@
       "name": "liquid_add",
       "VolumeIndexOfRefraction": 3.0,
       "TintAtDistance": 1
+    },
+    {
+      "name": "Glass",
+      "useAlbedoToTintTranslucency": false
     }
   ]
 }

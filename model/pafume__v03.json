@@ -3,7 +3,7 @@
   "index" : 5,
   "model": "./model/pafume__v03.glb",
   "environment": "./model/environment.env",
-  "environmentIntensity" : 5,
+  "environmentIntensity" : 1,
   "environmentTextureRotation" : 1,
   "meshNames": [
     "Parfum_cap_B_primitive0"
