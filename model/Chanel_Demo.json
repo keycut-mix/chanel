@@ -1,50 +1,122 @@
 {
   "id": "Chanel_Demo",
   "environment": "./model/environment.env",
-  "environmentIntensity" : 1,
-  "environmentTextureRotation" : 1,
+  "environmentIntensity" : 2,
+  "environmentTextureRotationY" : 1,
   "lightMap":[
     {
       "name" : "wall_sh",
       "url" : "./model/lightmap_a.png",
-      "level" : 2
+      "level" : 5
     },
     {
       "name" : "shelf_sh",
       "url" : "./model/lightmap_b.png",
-      "level" : 2
+      "level" : 5
     }
   ],
   "lights": [
     {
       "type": "spot",
       "name": "Spot",
-      "intensity": 0,
-      "diffuse": "#CCEDFF",
+      "intensity": 80.0000,
+      "diffuse": "#FFFFFF",
       "specular": "#FFFFFF",
-      "angle": 80,
-      "innerAngle": 6.8010,
-      "shadow":false,
-      "size":256,
+      "angle": 11.99,
+      "innerAngle": 0,
+      "shadow":true,
+      "size":512,
       "shadowGenerator": {
-        "bias": 0.001,
+        "bias": 0.000010,
         "darkness": 0,
         "filter": "PCF",
         "filteringQuality": "HIGH"
       }
-	}],
+	},
+	 {
+      "type": "spot",
+      "name": "Spot.001",
+      "intensity": 40.0000,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 21.1994,
+      "innerAngle": 0.1,
+      "shadow":true,
+      "size":1024,
+      "shadowGenerator": {
+        "bias": 0.00005,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	{
+      "type": "spot",
+      "name": "Spot.002",
+      "intensity": 40.0000,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 15.0974,
+      "innerAngle": 0.1,
+      "shadow":true,
+      "size":512,
+      "shadowGenerator": {
+        "bias": 0.000010,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	
+	{
+      "type": "spot",
+      "name": "Spot.003",
+      "intensity": 80,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 15.0974,
+      "innerAngle": 0.1,
+      "shadow":true,
+      "size":512,
+      "shadowGenerator": {
+        "bias": 0.000010,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	{
+      "type": "spot",
+      "name": "Spot.004",
+      "intensity": 40.0000,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 15.0974,
+      "innerAngle": 0.1,
+      "shadow":true,
+      "size":512,
+      "shadowGenerator": {
+        "bias": 0.000010,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	}
+	
+	
+	],
   "material": [
     {
       "name": "bottle_add",
-      "VolumeIndexOfRefraction": 3.0,
+      "VolumeIndexOfRefraction": 1.43,
       "TintAtDistance": 1
     },
     {
       "name": "liquid_add",
-      "VolumeIndexOfRefraction": 3.0,
+      "VolumeIndexOfRefraction": 1.19,
       "TintAtDistance": 1
     },
-    {
+	{
       "name": "Glass",
       "useAlbedoToTintTranslucency": false
     }
