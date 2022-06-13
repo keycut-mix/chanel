@@ -74,8 +74,8 @@
       "intensity": 80,
       "diffuse": "#FFFFFF",
       "specular": "#FFFFFF",
-      "angle": 15.0974,
-      "innerAngle": 0.1,
+      "angle": 8.8980,
+      "innerAngle": 2.6986,
       "shadow":true,
       "size":512,
       "shadowGenerator": {
@@ -88,13 +88,13 @@
 	{
       "type": "spot",
       "name": "Spot.004",
-      "intensity": 40.0000,
+      "intensity": 80.0000,
       "diffuse": "#FFFFFF",
       "specular": "#FFFFFF",
-      "angle": 15.0974,
-      "innerAngle": 0.1,
+      "angle": 11.9977,
+      "innerAngle": 0,
       "shadow":true,
-      "size":512,
+      "size":1024,
       "shadowGenerator": {
         "bias": 0.000010,
         "darkness": 0,
@@ -119,6 +119,48 @@
 	{
       "name": "Glass",
       "useAlbedoToTintTranslucency": false
+    }
+  ],
+  "lens":[
+    {
+      "index" : 1,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },
+    {
+      "index" : 2,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },
+    {
+      "index" : 3,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },
+    {
+      "index" : 4,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },    
+    {
+      "index" : 5,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
     }
   ]
 }
