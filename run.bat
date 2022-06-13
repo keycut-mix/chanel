@@ -1,0 +1,1 @@
+npx live-server --port=8080 --host=localhost --entry-file=./index.html

@@ -1,0 +1,48 @@
+{
+  "id": "Chanel_Demo",
+  "environment": "./model/environment.env",
+  "environmentIntensity" : 1,
+  "environmentTextureRotation" : 1,
+  "lightMap":[
+    {
+      "name" : "wall_sh",
+      "url" : "./model/lightmap_a.png",
+      "level" : 2
+    },
+    {
+      "name" : "shelf_sh",
+      "url" : "./model/lightmap_b.png",
+      "level" : 2
+    }
+  ],
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Spot",
+      "intensity": 0,
+      "diffuse": "#CCEDFF",
+      "specular": "#FFFFFF",
+      "angle": 80,
+      "innerAngle": 6.8010,
+      "shadow":false,
+      "size":256,
+      "shadowGenerator": {
+        "bias": 0.001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	}],
+  "material": [
+    {
+      "name": "bottle_add",
+      "VolumeIndexOfRefraction": 3.0,
+      "TintAtDistance": 1
+    },
+    {
+      "name": "liquid_add",
+      "VolumeIndexOfRefraction": 3.0,
+      "TintAtDistance": 1
+    }
+  ]
+}

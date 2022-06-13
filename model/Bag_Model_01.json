@@ -1,0 +1,77 @@
+{
+  "id": "Bag_Model_01",
+  "index": 3,
+  "model": "./model/Bag_Model_01.glb",
+  "environment": "./model/environment.env",
+  "environmentIntensity" : 0.47,
+  "environmentTextureRotation" : 1,
+  "meshNames": [
+    "Bag_model_01"
+  ],
+  "camera": {
+    "alpha": 1.57,
+    "beta": 1.57,
+    "radius": 1,
+    "target": [
+      0,
+      0.05,
+      0
+    ],
+    "lowerRadiusLimit": 0.2,
+    "upperRadiusLimit": 0.5,
+    "wheelDeltaPercentage": 0.05,
+    "fov": 0.66
+  },
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Spot",
+      "intensity": 2,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 149,
+      "innerAngle": 0.1,
+      "shadow":false,
+      "size":256,
+      "shadowGenerator": {
+        "bias": 0.0001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	  {
+      "type": "spot",
+      "name": "Spot.001",
+      "intensity": 20,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 57,
+      "innerAngle": 0.1,
+      "shadow":false,
+      "size":256,
+      "shadowGenerator": {
+        "bias": 0.0001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	  },
+	  {
+      "type": "spot",
+      "name": "Spot.002",
+      "intensity": 5,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 45,
+      "innerAngle": 0.1,
+      "shadow":false,
+      "size":256,
+      "shadowGenerator": {
+        "bias": 0.0001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	}]
+}
