@@ -31,7 +31,7 @@
       "specular": "#FFFFFF",
       "angle": 80,
       "innerAngle": 6.8010,
-      "shadow":false,
+      "shadow":true,
       "size":256,
       "shadowGenerator": {
         "bias": 0.000001,

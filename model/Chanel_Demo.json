@@ -36,7 +36,7 @@
 	 {
       "type": "spot",
       "name": "Spot.001",
-      "intensity": 40.0000,
+      "intensity": 10.0000,
       "diffuse": "#FFFFFF",
       "specular": "#FFFFFF",
       "angle": 21.1994,
