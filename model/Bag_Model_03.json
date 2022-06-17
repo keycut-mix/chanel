@@ -15,7 +15,10 @@
     "Bag_model_03"
   ],
   "autoPlay": false,
-  "animationName": "step_open",
+  "animationName": [
+    "step_open",
+    "step_close"
+  ],
   "camera": {
     "alpha": 1.57,
     "beta": 1.57,
@@ -63,9 +66,9 @@
         "darkness": 0,
         "filter": "PCF",
         "filteringQuality": "HIGH"
-	}
-	},
-	   {
+      }
+    },
+    {
       "type": "spot",
       "name": "Spot.002",
       "intensity": 1,
